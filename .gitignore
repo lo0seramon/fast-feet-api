@@ -1,0 +1,17 @@
+# Dependencys
+node_modules/
+
+# Logs
+yarn-debug.log*
+yarn-error.log*
+yarn.lock 
+
+# Yarn Integrity file
+.yarn-integrity
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*

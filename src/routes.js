@@ -1,9 +1,9 @@
 import { Router } from 'express';
 
+import AuthController from './app/controllers/AuthController';
+
 const routes = new Router();
 
-routes.get('/auth', (req, res) => {
-  return res.json({ message: 'Rota de autenticação' });
-});
+routes.post('/authenticate', AuthController.store);
 
 export default routes;
